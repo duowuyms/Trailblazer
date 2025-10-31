@@ -1,6 +1,6 @@
 # Trailblazer
 
-Hi! This is the official repository of *Trailblazer* paper "*Large Language Models Enable Generalizable Policy Design in Network Optimization*".
+Hi! This is the official repository of *Trailblazer* paper "*Large Language Models Enable Generalizable Policy Design in Network Optimization*" (coming soon).
 
 **What is Trailblazer?** 😄
 
