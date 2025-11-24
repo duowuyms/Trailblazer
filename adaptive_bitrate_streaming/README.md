@@ -18,11 +18,11 @@ is structured to be a linear combination of selected bitrate and the stall when 
    - `all_models`: This directory stores the model checkpoints of baselines.
 
 - `baseline_specical`: This directory stores the codes for runing baselines. Most of the codes are from the Genet's repository.
-- `plm_special`: This directory stores the codes for running NetLLM.
+- `plm_special`: This directory stores the codes for running Trailblazer.
    - `data`: This directory stores the codes related to the training datasets for LLM adaptation.
       - `exp_pool.py`: Implements the experience pool for collecting trajectories.
       - `dataset.py`: Implements a dataset class that wraps the experience pool.
-    - `models`: This directory stores the codes related to NetLLM.
+    - `models`: This directory stores the codes related to Trailblazer.
       - `state_encoder.py`: Implements the feature encoder for encoding states.
       - `gpt2.py, llama.py, opt.py, mistral.py, t5.py`: Customized LLMs.
       - `low_rank.py`: Implements the low rank matrices.
@@ -35,13 +35,13 @@ is structured to be a linear combination of selected bitrate and the stall when 
     - `test.py`: Some codes for testing the performance of adapted LLMs.
 - `generate_exp_pool.py`: Implements the generation of experience pool (i.e., training dataset for LLM).
 - `run_baseline.py`: The main file for running baselines. 
-- `run_plm.py`: The main file for running NetLLM.
+- `run_plm.py`: The main file for running Trailblazer.
 
 # Environment Setup
-## Environment for NetLLM
-1. Create a conda environment for NetLLM:
+## Environment for Trailblazer
+1. Create a conda environment for Trailblazer:
 
-   `conda create -n abr_netllm python>=3.8.10`
+   `conda create -n abr_Trailblazer python>=3.8.10`
 
 2. Then install the following depdendencies:
 
@@ -76,8 +76,8 @@ To run baselines, we need a different environment, since they are mainly written
    pip install tqdm==4.62.2
    ```
 # Usage
-## Usage of NetLLM
-To run NetLLM, first we need to download some LLMs. For example, if you want to use Llama2-7b as the foundation model, please download Llama2-7b in the directory: `../downloaded_plms/llama2/base`. In the following, we will use the Llama2-7b as the example to illustrate the usage of NetLLM.
+## Usage of Trailblazer
+To run Trailblazer, first we need to download some LLMs. For example, if you want to use Llama2-7b as the foundation model, please download Llama2-7b in the directory: `../downloaded_plms/llama2/base`. In the following, we will use the Llama2-7b as the example to illustrate the usage of Trailblazer.
 
 **Finetune LLM**
 
