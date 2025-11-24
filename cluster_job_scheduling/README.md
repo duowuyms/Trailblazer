@@ -20,7 +20,7 @@ What is CJS?
 - `spark_sched_sim`: Code directory for implementing the simulation environment, which is from [spark-sched-sim](https://github.com/ArchieGertsman/spark-sched-sim).
 - `trainers`: Files related to training baselines.
 
-- `plm_special`: Stores core codes for running NetLLM on cluster job scheduling.
+- `plm_special`: Stores core codes for running Trailblazer on cluster job scheduling.
     - `data`: Stores codes related to the training dataset.
       - `exp_pool.py`: Implements the experience pool for collecting trajectories.
       - `dataset.py`: Implements a dataset class that wraps the experience pool.
@@ -41,15 +41,15 @@ What is CJS?
 
 - `generate_exp_pool.py`: Implements the generation of experience pool (i.e., training dataset for LLM).
 - `run_baseline.py`: The main file for running baselines. 
-- `run_plm.py`: The main file for running NetLLM.
+- `run_plm.py`: The main file for running Trailblazer.
 
 # Environment Setup
 
 1. Create a conda environment with `python=3.11.9` and activate it. Other versions of python might be okay as well.
 
    ```sh
-   conda create -n cjs_netllm python==3.11.9 -y
-   conda activate cjs_netllm
+   conda create -n cjs_Trailblazer python==3.11.9 -y
+   conda activate cjs_Trailblazer
    ```
 
 2. Install the following dependencies (the package versions are provided just for reference): 
@@ -78,8 +78,8 @@ What is CJS?
 
 # Usage
 
-## Usage of NetLLM
-To run NetLLM, first we need to download the pretrained weights of some LLMs. For example, if you want to use Llama2-7b as the foundation model, please download Llama2-7b in the directory: `../downloaded_plms/llama2/base`. In the following, we will use the Llama2-7b as the example to illustrate the usage of NetLLM.
+## Usage of Trailblazer
+To run Trailblazer, first we need to download the pretrained weights of some LLMs. For example, if you want to use Llama2-7b as the foundation model, please download Llama2-7b in the directory: `../downloaded_plms/llama2/base`. In the following, we will use the Llama2-7b as the example to illustrate the usage of Trailblazer.
 
 **Finetune LLM**
 
