@@ -14,8 +14,5 @@ To validate its real-world applicability, we deploy Trailblazer in Douyin’s co
 
 **What does this repo provide?** 😄
 
-This repository contains the implementation of Trailblazer for the ABR and CJS tasks. Due to Douyin’s data security requirements, we are unable to release the code and data for the CC task deployed in production.
+This repository contains the implementation of Trailblazer for the ABR and CJS tasks. Please note that due to Douyin’s data security requirements, we are unable to release the code and data for the CC task deployed in production.
 
-To facilitate the understanding and adoption of Trailblazer for the community, we are actively developing an open-source parallel version of Trailblazer implemented on the publicly available Microsoft CC dataset. This will take some time. Please stay tuned!
-
-BTW, you are welcome to visit our sister repo [NetLLM SIGCOMM 2024](https://github.com/duowuyms/NetLLM)! 🤗
