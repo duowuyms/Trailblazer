@@ -116,31 +116,3 @@ python run_baseline.py --model genet --cuda-id 0
 python run_baseline.py --model mpc 
 python run_baseline.py --model bba 
 ```
-
-Note: We do not provide implementation of training baselines, since we reuse their open-source model checkpoints.
-
-# Citation
-If you find this repository useful, please kindly cite the following paper:
-```
-@inproceedings{wu2024netllm,
-      author = {Wu, Duo and Wang, Xianda and Qiao, Yaqi and Wang, Zhi and Jiang, Junchen and Cui, Shuguang and Wang, Fangxin},
-      title = {NetLLM: Adapting Large Language Models for Networking},
-      year = {2024},
-      publisher = {Association for Computing Machinery},
-      address = {New York, NY, USA},
-      doi = {10.1145/3651890.3672268},
-      booktitle = {Proceedings of the ACM SIGCOMM 2024 Conference},
-      pages = {661–678},
-      numpages = {18},
-      location = {Sydney, NSW, Australia},
-      series = {ACM SIGCOMM '24}
-}
-
-@inproceedings{xia2022genet,
-  title={Genet: automatic curriculum generation for learning adaptation in networking},
-  author={Xia, Zhengxu and Zhou, Yajie and Yan, Francis Y and Jiang, Junchen},
-  booktitle={Proceedings of the ACM SIGCOMM 2022 Conference},
-  pages={397--413},
-  year={2022}
-}
-```

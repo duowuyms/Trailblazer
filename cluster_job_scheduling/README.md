@@ -193,28 +193,3 @@ python run_baseline.py \
 ```
 
 
-# Citation
-If you find this repository useful, please kindly cite the following papers:
-```
-@inproceedings{wu2024netllm,
-      author = {Wu, Duo and Wang, Xianda and Qiao, Yaqi and Wang, Zhi and Jiang, Junchen and Cui, Shuguang and Wang, Fangxin},
-      title = {NetLLM: Adapting Large Language Models for Networking},
-      year = {2024},
-      publisher = {Association for Computing Machinery},
-      address = {New York, NY, USA},
-      doi = {10.1145/3651890.3672268},
-      booktitle = {Proceedings of the ACM SIGCOMM 2024 Conference},
-      pages = {661–678},
-      numpages = {18},
-      location = {Sydney, NSW, Australia},
-      series = {ACM SIGCOMM '24}
-}
-
-@misc{spark_sim,
-    title={A Gymnasium environment for simulating job scheduling in Apache Spark},
-    year={2024},
-    author={Arkadiy Gertsman},
-    note= {Accessed: 2024-12-15},
-    url={https://github.com/ArchieGertsman/spark-sched-sim}
-}
-```
