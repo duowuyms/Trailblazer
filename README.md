@@ -1,16 +1,21 @@
 # Trailblazer
 
-Hi! This is the official repository of *Trailblazer* paper "*Large Language Models Enable Generalizable Policy Design in Network Optimization*" (coming soon).
+![Trailblazer](./images/trailblazer.png)
+
+Hi! This is the official repository of *Trailblazer* paper "*Large Language Models as Generalist Policies for 
+Network Optimization*".
+
+**Abstract**: Designing control policies to ensure robust network services is essential to modern digital infrastructure. However, the dominant paradigm for network optimization relies on designing specialist policies based on handcrafted rules or deep learning models, leading to poor generalization across diverse tasks and environments. In contrast, large language models (LLMs), pretrained on Internet-scale corpora, provide a rich and unified knowledge base that encodes fundamental networking principles. Combined with their emergent abilities in generalization to unseen scenarios, LLMs offer a transformative foundation for generalist network policies that can generalize across diverse tasks and environments with minimal adaptation. In this paper, we present Trailblazer, the first systematic framework to realize such a generalist policy for networking. Trailblazer incorporates a network alignment scheme to ground the LLM in specific networking tasks, and an adaptive policy collaboration mechanism that offloads simple control cases from the LLM to a lightweight policy for computational efficiency. Through extensive simulations and large-scale real-world online evaluation on Douyin (the Chinese version of TikTok), Trailblazer, powered by a single LLM, demonstrates stronger cross-task and cross-environment generalization than conventional specialist policies. Our results validate LLMs as the foundation for generalist network policies, and position Trailblazer as the first step toward the generalist-driven paradigm that enables strong generalization with minimal efforts in policy design.
 
 **What is Trailblazer?** 😄
 
-Trailblazer is the pioneering framework that design and deploy network optimization policies with LLMs to achieve stronger generalization. 
+Trailblazer is the pioneering framework that grounds LLMs as generalist policies for network optimization. 
 
 Through extensive experiments on two representative networking tasks of broad social and industrial importance-adaptive bitrate streaming (ABR) and cluster job scheduling (CJS)-we show that Trailblazer powered by a single LLM significantly outperforms state-of-the-art baselines, demonstrating stronger cross-task and cross-environment generalization. 
 
 To validate its real-world applicability, we deploy Trailblazer in Douyin’s congestion control (CC) service for large-scale online A/B tests for three weeks, serving 150,000+ users across 100+ cities and accumulating over 1,200 days of video playback time. Results show that Trailblazer outperformed VICC, a strong and mature baseline currently used by Douyin, across all key industrial performance metrics. 
 
-> *Trailblazer (开拓者)* signifies our goal of forging the first path in LLM-powered network systems, establishing a foundational framework for both academia and industry to advance the integration of LLMs into real-world network services. 😊
+> *Trailblazer (开拓者)* signifies our goal of forging the first path in LLM-driven generalist network policies, establishing a framework for both academia and industry to advance the integration of LLMs into real-world network services. 😊
 
 **What does this repo provide?** 😄
 
